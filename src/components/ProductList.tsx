@@ -16,7 +16,6 @@ export default function ProductList() {
                     <BeatLoader color="#36d7b7" />
                 </div>
             )}
-            <h2 className="text-gray-800 font-semibold text-4xl">Product Catalog</h2>
             {error && <p>{error}</p>}
             <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 m-4">
                 {products.map((p: any) => (

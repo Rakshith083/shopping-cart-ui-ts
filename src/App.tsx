@@ -5,6 +5,7 @@ import ProductList from "./components/ProductList";
 export default function App() {
 
   return <>
+    <h2 className="text-gray-800 font-semibold text-4xl">Product Catalog</h2>
     <ProductList />
   </>
 }
